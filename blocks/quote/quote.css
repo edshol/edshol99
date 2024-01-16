@@ -3,10 +3,12 @@
     padding: 1em;
     margin: 1rem 0;
 }
+
 .quote blockquote {
     font-weight: 700;
     margin-bottom: 0;
 }
+
 .quote blockquote::after {
     content: "";
     display: block;
@@ -16,6 +18,6 @@
     border-bottom: 2px solid gray;
 }
 
-quote p strong {
+.quote p strong {
     font-weight: 500;
 }
